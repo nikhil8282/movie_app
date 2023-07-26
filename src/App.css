@@ -1,0 +1,109 @@
+.navbtn{
+    margin: 15px ;
+   padding: 2px;
+font-size: 2rem;
+}
+
+.banner_card{
+    height: 90vh;
+    width: 100vw;
+    margin-top: 0.1vh;
+    margin-bottom: 1vh;
+    color: aliceblue;
+    position: relative;
+    
+}
+.banner_card_img{
+    
+    border-radius: 0px;
+  width: 100%;
+    height: 100%;
+  
+}
+.banner_card_title{
+    top: 15rem;
+    left: 4rem;
+    /* margin-top: 40vh; */
+    position: absolute;
+    font-size: 2rem;
+}
+.banner_card_text{
+    top: 18rem;
+    left: 4rem;
+    font-size: 1.2rem;
+    margin-right: 2.5vw ;
+    height: 5rem;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+.movies_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1rem ;
+    justify-content: center; 
+    margin: 0px; 
+    
+}
+.movies_card{
+    width: 20vw;
+    height: 40vh;
+    margin: 1rem;
+    position: relative;
+    color: white;
+    
+}
+
+/* .movies_card_img{
+    position: relative;
+    width: 100%;
+  
+    height: 100%;
+    
+    
+} */
+.movies_card_title{
+    
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    
+}
+.movies_btn{
+    position: absolute;
+    bottom: 2rem;
+    /* left: 5rem; */
+    width: 100%;
+ /* border: 0px; */
+ border-radius: 0%;
+    }
+
+
+@media screen and (max-width:400px) {
+    .banner_card{
+        height: 30vh;
+    }
+    .banner_card_title{
+        font-size: 1rem;
+        top: 10vh;
+        left: 5vw;
+    }
+    .banner_card_text{
+        font-size: 0.5rem;
+        top: 16vh;
+        left: 5vw;
+    }
+    .movies_card{
+        
+        width: 40vw;
+        margin: 0.5rem;
+    }
+   .movies_card_title{
+    top: 1vh;
+    left: 1w;
+   }
+    /* .banner_card_img{
+        height: 30vh;
+    } */
+}
